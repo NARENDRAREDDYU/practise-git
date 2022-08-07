@@ -1,0 +1,255 @@
+practise commands
+
+  1  uname
+    2  whoami
+    3  pwd
+    4  cat /os-release
+    5  cat /etc/os-release
+    6  touch file.txt file2.txt file3.txt
+    7  ls
+    8  cat file.txt
+    9  vi file.txt
+   10  cat file.txt
+   11  ls
+   12  ll
+   13  vi file2.txt
+   14  vi file3.txt
+   15  cat file
+   16  cat file.txt
+   17  cat file.txt file2.txt file3.txt
+   18  pwd
+   19  ls /etc
+   20  ls /etc/ssh/sshd_config
+   21  vi /etc/ssh/sshd_config
+   22  sudo vi /etc/ssh/sshd_config
+   23  sudo -i
+   24  sudo vi /etc/ssh/sshd_config
+   25  sudo systemctl restart sshd
+   26  sudo passwd ec2-user
+   27  sudo passwd centos
+   28  ls /var/www/html
+   29  vi /etc/httpd/conf/httpd.conf
+   30  wget https://github.com/ravi2krishna/ecomm/archive/refs/heads/master.zip
+   31  sudo yum -y install wget
+   32  wget https://github.com/ravi2krishna/ecomm/archive/refs/heads/master.zip
+   33  ls
+   34  unzip master.zip
+   35  sudo yum -y install unzip
+   36  unzip master.zip
+   37  ls
+   38  ls ecomm-master
+   39  sudo mv ecomm-master /var/www/html/
+   40  ls /var/www/html/
+   41  vi /etc/httpd/conf/httpf.conf
+   42  vi /etc/httpd/conf/httpd.conf
+   43  sudo vi /etc/httpd/conf/httpd.conf
+   44  sudo setenforce 0
+   45  sudo systecmtl restart httpd
+   46  sudo systemctl restart httpd
+   47  ls /var/www/html
+   48  sudo cd /var/www/html
+   49  ls
+   50  cd /var/www/html/
+   51  l
+   52  ls
+   53  sls
+   54  ls
+   55  ll
+   56  cd ecomm-master/
+   57  ls
+   58  ll
+   59  sudo grep -r winter
+   60  sudo grep Winter
+   61  grep Wintern
+   62  sudo grep Winter | ecomm-master
+   63  ls
+   64  sudo grep shop.html
+   65  sudo grep -r Winter
+   66  history
+   67  cd ..
+   68  cd .
+   69  cd ~
+   70  exit
+   71  ls
+   72  cat file.txt file2.txt file3.txt
+   73  ls
+   74  vi file2.txt
+   75  su narendra
+   76  sudo useradd narendrareddy
+   77  sudo passwd mani
+   78  sudo passwd narendrareddy
+   79  su narendrareddy
+   80  ls
+   81  su narendrareddy
+   82  ls
+   83  ll
+   84  ls -ltr
+   85  chmod 600 file.txt
+   86  ls
+   87  ll
+   88  chmod 777 file.txt
+   89  ll
+   90  chmod +x file.txt
+   91  ls
+   92  sudo ls /etc/ssh/
+   93  ls /etc
+   94  ls /etc/ssh/sshd_config
+   95  sudo vi /etc/ssh/sudo.conf
+   96  sudo vi /etc/ssh/sudoers.d
+   97  sudo vi /etc/ssh/yum.repos.d
+   98  sudo yum -y install httpd
+   99  sudo yum list installed | grep ssh
+  100  sudo yum list installed  | grep sshd
+  101  suo yum list installed | grep httpd
+  102  sudo yum list installed | grep http
+  103  sudo systemctl start httpd
+  104  sudo systemctl enable httpd
+  105  sudo netstat -ntpl | grep 80
+  106  sudo netstat -ntpl | grep 22
+  107  sudo rpm -qa | grep 80
+  108  sudo rpm -qa | grep 22
+  109  sudo rpm -qa | grep httpd
+  110  sudo rpm -qa | grep sshd
+  111  sudo rpm -qa | grep ssh
+  112  sudo systemctl status httpd
+  113*
+  114  tree
+  115  git
+  116  sudo yum -y install git
+  117  git
+  118  ls /var/www/html
+  119  sudo rm -f /var/www/html/ecomm-master/
+  120  sudo rm -rf /var/www/html/ecomm-master/
+  121  ls /var/www/html
+  122  ls /var/www/html/
+  123  ls
+  124  sudo git clone https://github.com/ravi2krishna/php-lamp.git /var/www/html/
+  125  ls
+  126  sudo ls /var/www/html/
+  127  sudo yum -y install php-mysql
+  128  sudo systemctl restart httpd
+  129  sudo vi /etc/httpd/conf/httpd.conf
+  130  sudo setenforece 0
+  131  sudo setenforce 0
+  132  sudo systemctl restart httpd
+  133  sudo vi /var/www/html/php/db.php
+  134  ls
+  135  history
+  136  ls
+  137  sudo setenforce 0
+  138  history
+  139  ld
+  140  ls
+  141  sudo systemctl status httpd
+  142  sudo
+  143  sudo vi add.py
+  144  python add.py
+  145  sudo vi Main.java
+  146  java Main
+  147  sudo yum -y install java-1.8*
+  148  java Main.java
+  149  java Main
+  150  javac Main.java
+  151  java Main
+  152  sudo yum - install php
+  153  sudo yum -y install php
+  154  php
+  155  sudo yum -y install websoft
+  156  websoft
+  157  whit
+  158  whitz
+  159  mysql
+  160  sudo yum -y install mysql
+  161  mysql
+  162  mysql -h mydb.cf8audruev2f.us-east-1.rds.amazonaws.com -u admin -p
+  163  mysql -h mydb.cf8audruev2f.us-east-1.rds.amazonaws.com -u root -p
+  164  mysql -h db.cf8audruev2f.us-east-1.rds.amazonaws.com -u admin -p
+  165  mysql -h db.cf8audruev2f.us-east-1.rds.amazonaws.com -u admin -p
+  166  sudo rpm -qa | grep mysql
+  167  sudo yum remove mysql80-community-release-el7-3.noarch
+  168  ls
+  169  sudo rpm -ivh mysql-community-release-el7-5.noarch.rpm
+  170  sudo yum -y insall mysql-server
+  171  sudo yum -y install mysql-server
+  172  sudo systemctl start mysqld
+  173  sudo systemctl enable mysqld
+  174  sudo netstat -ntpl | grep 3306
+  175  sudo mysql_secure_installation
+  176  mysql -h localhost -u root -p
+  177  git
+  178  git init practise
+  179  ls
+  180  cd practise/
+  181  ls
+  182  pwd
+  183  git config --global user.name NARENDRAREDDYU
+  184  git config --global user.email narendradiscountpark@gmail.com
+  185  git config --global colour.ui true
+  186  git status
+  187  sudo vi practise.txt
+  188  history
+  189  sudo vi practise.txt
+  190  git status
+  191  git add practise.txt
+  192  git status
+  193  git commit -m "added up to book strore app" practise.txt
+  194  git push --all
+  195  git status
+  196  git push origin master
+  197  git logs
+  198  git log
+  199  sudo vi practise.txt
+  200  git status
+  201  git add practise.txt
+  202  git commit -m "added changes" practise.txt
+  203  git status
+  204  git push
+  205  git push master
+  206  git config --global user.name NARENDRAREDDYU
+  207  git config --global user.email narendradiscountpark@gmail.com
+  208  git config --global colour.ui true
+  209  git push origin --all
+  210  git pull --all
+  211  git pull master
+  212  git push
+  213  git push practise.txt
+  214   git config --global push.default matching
+  215   git config --global push.default simple
+  216  git push master
+  217  git push --set-upstream master master
+  218  git branch
+  219  ls
+  220  git
+  221  git hub
+  222  git show
+  223  git status
+  224  git push --all origin
+  225  git push --all
+  226  git push
+  227  ls
+  228  git push --all
+  229  git push --all github.com
+  230  git push --all
+  231  git show
+  232  git log
+  233  sudo git push --all
+  234  git log
+  235  git
+  236  git init narendra
+  237  ls
+  238  git status
+  239  cd ..
+  240  git
+  241  mkdir practise
+  242  mkdir commandpractise
+  243  ls
+  244  cd commandpractise/
+  245  git init
+  246  ls
+  247  ls -ltr
+  248  ls -a
+  249  ls .git
+  250  git status
+  251  sudo vi practise.txt
+  252  cd ..
+
