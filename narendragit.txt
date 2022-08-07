@@ -1,0 +1,200 @@
+78  git init practise
+  179  ls
+  180  cd practise/
+  181  ls
+  182  pwd
+  183  git config --global user.name NARENDRAREDDYU
+  184  git config --global user.email narendradiscountpark@gmail.com
+  185  git config --global colour.ui true
+  186  git status
+  187  sudo vi practise.txt
+  188  history
+  189  sudo vi practise.txt
+  190  git status
+  191  git add practise.txt
+  192  git status
+  193  git commit -m "added up to book strore app" practise.txt
+  194  git push --all
+  195  git status
+  196  git push origin master
+  197  git logs
+  198  git log
+  199  sudo vi practise.txt
+  200  git status
+  201  git add practise.txt
+  202  git commit -m "added changes" practise.txt
+  203  git status
+  204  git push
+  205  git push master
+  206  git config --global user.name NARENDRAREDDYU
+  207  git config --global user.email narendradiscountpark@gmail.com
+  208  git config --global colour.ui true
+  209  git push origin --all
+  210  git pull --all
+  211  git pull master
+  212  git push
+  213  git push practise.txt
+  214   git config --global push.default matching
+  215   git config --global push.default simple
+  216  git push master
+  217  git push --set-upstream master master
+  218  git branch
+  219  ls
+  220  git
+  221  git hub
+  222  git show
+  223  git status
+  224  git push --all origin
+  225  git push --all
+  226  git push
+  227  ls
+  228  git push --all
+  229  git push --all github.com
+  230  git push --all
+  231  git show
+  232  git log
+  233  sudo git push --all
+  234  git log
+  235  git
+  236  git init narendra
+  237  ls
+  238  git status
+  239  cd ..
+  240  git
+  241  mkdir practise
+  242  mkdir commandpractise
+  243  ls
+  244  cd commandpractise/
+  245  git init
+  246  ls
+  247  ls -ltr
+  248  ls -a
+  249  ls .git
+  250  git status
+  251  sudo vi practise.txt
+  252  cd ..
+  253  history
+  254  cd commandpractise/
+  255  ls
+  256  vi practise.txt
+  257  sudo vi practise.txt
+  258  git status
+  259  git add practise.txt
+  260  git status
+  261  git commit -m "commands are added"
+  262  git push --all
+  263  git status
+  264  sudo vi practise.txt
+  265  git stastus
+  266  git status
+  267  git add .
+  268  git status
+  269  git commit -m "changed spaces" .
+  270  .
+  271  git status
+  272  ls
+  273  git status
+  274  sudo vim practise.txt
+  275  sudo vi practise.txt
+  276  git status
+  277  git restore --staged practise.txt
+  278  git status
+  279  git checkout -- practise.txt
+  280  git status
+  281  git add practise.txt
+  282  git commit -m "file modified"
+  283  git log
+  284  sudo vi practise.txt
+  285  git status
+  286  git checkout -- practise.txt
+  287  sudo vi practise.txt
+  288  sudo log
+  289  git log
+  290  rm -rf practise.txt
+  291  git status
+  292  git log
+  293  git commit -m "practise file deleted"
+  294  ls
+  295  git status
+  296  git add .
+  297  git status
+  298  git commit -m "delete the file"
+  299  git status
+  300  git stastus
+  301  git status
+  302  git add/rm .
+  303  git status
+  304  git add .
+  305  git commit -m "practice.txt file delete"
+  306  git log
+  307  git status
+  308  git add .
+  309  git add --all
+  310  git status
+  311  git commit -m "practise.txt is deleted"
+  312  git log
+  313  git reset 8b66ad2dbdbe1ddc6b41cfe60078158a1f0ce4a4
+  314  git log
+  315  ls
+  316  git status'
+q
+ezit
+exit
+  317  git status
+  318  git log
+  319  git add --all
+  320  git status
+  321  ls
+  322  sudo vi exercisr.txt
+  323  git status
+  324  git add --all
+  325  git status
+  326  ls
+  327  sudo vi create.txt
+  328  git add --all
+  329  git status
+  330  git stash
+  331  git status
+  332  git log
+  333  cat practise.txt
+  334  ls
+  335  git stash pop
+  336  git add --all
+  337  git stash
+  338  ls
+  339  git remote add origin https://github.com/NARENDRAREDDYU/practise-git.git
+  340  git remote -v
+  341  git push origin master
+  342  LS
+  343  ls
+  344  history
+  345  sudo vi git.txt
+  346  ls
+  347  git add --all
+  348  git commit -m "git commands added"
+  349  git push origin master
+  350  git log
+  351  git branch
+  352  git remote -v
+  353  git log
+  354  master
+  355  git branch
+  356  git clone https://github.com/NARENDRAREDDYU/php-lamp.git
+  357  ls
+  358  git remote -v
+  359  git remote add upstream https://github.com/NARENDRAREDDYU/php-lamp.git
+  360  git remote -v
+  361  ls
+  362  ls php-lamp/
+  363  sudo vi php-lamp/README.md
+  364  git status
+  365  git branch narendra
+  366  git checkout narendra
+  367  git branch
+  368  ls
+  369  git add --all
+  370  git commit -m "Narendra added a message"
+  371  git log
+  372  git push origin narendra
+  373  history
+
